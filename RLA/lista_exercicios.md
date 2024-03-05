@@ -32,8 +32,8 @@ I --> Z
 4  LEIA numero
 5  SE numero > 0 ENTAO
 6    resto = numero % 2
-7	   SE resto == 0 ENTAO
-8	     ESCREVA "O número é par!"
+7    SE resto == 0 ENTAO
+8      ESCREVA "O número é par!"
 9    SENAO
 10     ESCREVA "O número é impar!"
 11 SENAO
