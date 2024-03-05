@@ -68,12 +68,12 @@ J --> I
 4  LEIA sal, prof
 5  ESCOLHA
 6    CASO prof == “Técnico”
-7           sal_reaj ← 1.5 * sal
-8 			CASO prof = “Gerente”
-9  					sal_reaj ← 1.3 * sal
-10 			SENÃO
-11      sal_reaj ← 1.1 * sal
-12  FIM_ESCOLHA
-13  ESCREVA “Salário Reajustado = “, sal_reaj
-14  FIM
+7      sal_reaj ← 1.5 * sal
+8	   CASO prof = “Gerente”
+9	     sal_reaj ← 1.3 * sal
+10   SENÃO
+11     sal_reaj ← 1.1 * sal
+12 FIM_ESCOLHA
+13 ESCREVA “Salário Reajustado = “, sal_reaj
+14 FIM
 ```
