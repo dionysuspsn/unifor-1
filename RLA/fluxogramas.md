@@ -1,7 +1,7 @@
 # UNIFOR
 
-**Disciplina**: Raciocínio lógico algorítmico
-**Orientador**: Prof. Me. Ricardo Carubbi
+**Disciplina**: Raciocínio lógico algorítmico <br>
+**Orientador**: Prof. Me. Ricardo Carubbi <br>
 
 **Tema:** Construção de fluxogramas em markdown
 
