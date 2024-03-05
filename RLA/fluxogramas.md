@@ -3,8 +3,7 @@
 **Disciplina**: Raciocínio lógico algorítmico <br>
 **Orientador**: Prof. Me. Ricardo Carubbi <br>
 
-**Tema:** Construção de fluxogramas em markdown
-
+**Tema:** Construção de fluxogramas em markdown <br>
 **Referência:** [Mermaid Flowcharts - Basic Syntax](https://mermaid.js.org/syntax/flowchart.html)
 
 ## Exercício exemplo
