@@ -1,6 +1,9 @@
 # UNIFOR
-**Construção de fluxogramas** em markdown: [Mermaid Flowcharts - Basic Syntax](https://mermaid.js.org/syntax/flowchart.html)
+**Disciplina**: Raciocínio lógico algorítmico
+**Orientador**: Prof. Me. Ricardo Carubbi
 
+**Tema:** Construção de fluxogramas em markdown: 
+**Referência:** [Mermaid Flowcharts - Basic Syntax](https://mermaid.js.org/syntax/flowchart.html)
 ## Exercício exemplo
 Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o adicional de salário de funcionário por cargo de uma empresa fictícia. Sabe-se que os funcionários de cargo técnico receberão reajuste de 50%, cargo de gerência, um reajuste de 30% e demais, um reajuste de 10%. 
 
