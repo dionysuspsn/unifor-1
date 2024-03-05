@@ -2,10 +2,12 @@
 **Nome**: Nome do estudante <br>
 **Disciplina**: Raciocínio lógico algorítmico
 
-## Exercício 3
+## Lista de exercícios 01
+
+### Exercício 3
 Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um número inteiro e positivo é par ou impar.
 
-### Fluxograma
+#### Fluxograma
 
 ```mermaid
 flowchart TD
@@ -22,7 +24,7 @@ H --> Z
 I --> Z
 ```
 
-### Pseudocódigo
+#### Pseudocódigo
 ```
 1  ALGORTIMO verifica_par_impar
 2  DECLARE numero, resto NUMERICO
@@ -39,10 +41,10 @@ I --> Z
 13  FIM_ALGORTIMO
 ```
 
-## Exercício 04
+### Exercício 04
 Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o adicional de salário de funcionário por cargo de uma empresa fictícia. Sabe-se que os funcionários de cargo técnico receberão reajuste de 50%, cargo de gerência, um reajuste de 30% e demais, um reajuste de 10%. 
 
-### Fluxograma
+#### Fluxograma
 ```mermaid
 flowchart TD
 A([INICIO]) --> B[[Digite o salário e profissão]]
@@ -57,7 +59,8 @@ E --> I
 H --> J{{'Salário Reajustado = ', sal_reaj}}
 J --> I
 ```
-### Pseudocódigo
+
+#### Pseudocódigo
 ```
 1  ALGORITMO calReajuste
 2  DECLARE  sal, sal_reaj: real, prof: caractere
