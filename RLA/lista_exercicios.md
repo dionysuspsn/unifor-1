@@ -38,7 +38,7 @@ I --> Z
 10     ESCREVA "O número é impar!"
 11 SENAO
 12   ESCREVA "O número não é postivo!"
-13  FIM_ALGORTIMO
+13 FIM_ALGORTIMO
 ```
 
 ### Exercício exemplo
