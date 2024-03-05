@@ -1,5 +1,5 @@
 # UNIFOR
-**Nome**: Nome do estudante
+**Nome**: Nome do estudante <br>
 **Disciplina**: Raciocínio lógico algorítmico
 
 ## Exercício 3
