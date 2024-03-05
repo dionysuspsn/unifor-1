@@ -67,7 +67,7 @@ J --> I
 3  INICIO
 4  LEIA sal, prof
 5  ESCOLHA
-6      	CASO prof == “Técnico”
+6    CASO prof == “Técnico”
 7           sal_reaj ← 1.5 * sal
 8 			CASO prof = “Gerente”
 9  					sal_reaj ← 1.3 * sal
