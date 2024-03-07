@@ -27,19 +27,31 @@ I --> Z
 #### Pseudocódigo
 ```
 1  ALGORTIMO verifica_par_impar
-2  DECLARE numero, resto NUMERICO
+2  DECLARE numero, resto: INTEIRO
 3  ESCREVA "Digite um número: "
+4  INICIO
 4  LEIA numero
-5  SE numero > 0 ENTAO
-6    resto = numero % 2
-7    SE resto == 0 ENTAO
+5  SE numero > 0 ENTAO                  \\ verifica se o inteiro é positivo
+6    resto = numero % 2                 \\ calcula o resto da divisão por 2
+7    SE resto == 0 ENTAO                \\ verifica se o resto é igual a zero
 8      ESCREVA "O número é par!"
 9    SENAO
 10     ESCREVA "O número é impar!"
-11 SENAO
-12   ESCREVA "O número não é postivo!"
-13 FIM_ALGORTIMO
+11   FIM_SE
+11  SENAO                                \\ caso inteiro for negativo (condição linha 5)
+12    ESCREVA "O número deve ser postivo!"
+13  FIM_SE
+13 FIM
 ```
+
+#### Teste
+| numero | numero > 0 | resto | resto == 0 | Saída |
+| -- | -- | -- | -- | -- | 
+| -1 | F |   |   | "O número deve ser postivo!" |
+| 0  | V | 0 | V | "O número é par!" |
+| 13 | V | 1 | F | "O número é impar!" |
+| 30 | V | 0 | V | "O número é par!" |
+
 ## Lista de exercícios 02
 
 ### Exercício exemplo
@@ -78,3 +90,10 @@ J --> I
 13 ESCREVA “Salário Reajustado = “, sal_reaj
 14 FIM
 ```
+
+#### Teste
+| sal | prof | prof == “Técnico” | prof = “Gerente” | sal_reaj | Saída |
+| -- | -- | -- | -- | -- | -- |
+| 1000 | Técnico | V | F | 1500 | “Salário Reajustado = 1500“ |
+| 2000 | Gerente | F | V | 2600 | “Salário Reajustado = 2600“ |
+| 9000 | Diretor | F | F | 9900 | “Salário Reajustado = 9900“ |
