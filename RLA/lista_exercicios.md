@@ -40,6 +40,7 @@ I --> Z
 12   ESCREVA "O número não é postivo!"
 13 FIM_ALGORTIMO
 ```
+## Lista de exercícios 02
 
 ### Exercício exemplo
 Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o adicional de salário de funcionário por cargo de uma empresa fictícia. Sabe-se que os funcionários de cargo técnico receberão reajuste de 50%, cargo de gerência, um reajuste de 30% e demais, um reajuste de 10%. 
