@@ -14,12 +14,12 @@ flowchart TD
 A([INICIO]) --> B{{Digite um número:}}
 B --> C[\numero\]
 C --> D{numero > 0}
-D --NÂO--> E[O número não é positivo!]
-D --SIM--> F[resto = numero % 2]
+D --FALSE--> E[O número não é positivo!]
+D --TRUE--> F[resto = numero % 2]
 E --> Z([FIM])
 F --> G{resto == 0}
-G --NÂO--> H{{O número é impar!}}
-G --SIM--> I{{O número é par!}}
+G --FALSE--> H{{O número é impar!}}
+G --TRUE--> I{{O número é par!}}
 H --> Z
 I --> Z
 ```
@@ -63,12 +63,12 @@ flowchart TD
 A([INICIO]) --> B{{Digite o salário e profissão}}
 B --> C[\sal, prof\]
 C --> D{prof == 'Tecnico'}
-D -- SIM --> E[sal_reaj = 1.5 * sal]
-D -- NÃO --> F{prof == 'Gerente'}
-F -- SIM --> G[sal_reaj = 1.3 * sal]
-F -- NÂO --> H[sal_reaj = 1.1 * sal]
+D --FALSE--> E{prof == 'Gerente'}
+D --TRUE--> F[sal_reaj = 1.5 * sal]
+E --FALSE--> H[sal_reaj = 1.1 * sal]
+E --TRUE--> G[sal_reaj = 1.3 * sal]
 G --> I([FIM])
-E --> I
+F --> I
 H --> J{{'Salário Reajustado = ', sal_reaj}}
 J --> I
 ```
