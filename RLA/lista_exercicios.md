@@ -13,7 +13,7 @@ Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um n�
 flowchart TD
 A([INICIO]) --> B{{Digite um número:}}
 B --> C[\numero\]
-C --> D{numero > 0}
+C --> D{numero >= 0}
 D --FALSE--> E[O número não é positivo!]
 D --TRUE--> F[resto = numero % 2]
 E --> Z([FIM])
@@ -31,7 +31,7 @@ I --> Z
 3  ESCREVA "Digite um número: "
 4  INICIO
 4  LEIA numero
-5  SE numero > 0 ENTAO                  // verifica se o inteiro é positivo
+5  SE numero >= 0 ENTAO                  // verifica se o inteiro é positivo
 6    resto = numero % 2                 // calcula o resto da divisão por 2
 7    SE resto == 0 ENTAO                // verifica se o resto é igual a zero
 8      ESCREVA "O número é par!"
@@ -45,7 +45,7 @@ I --> Z
 ```
 
 #### Teste
-| numero | numero > 0 | resto | resto == 0 | Saída |
+| numero | numero >= 0 | resto | resto == 0 | Saída |
 | -- | -- | -- | -- | -- | 
 | -1 | F |   |   | "O número deve ser postivo!" |
 | 0  | V | 0 | V | "O número é par!" |
