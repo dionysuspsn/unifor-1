@@ -51,11 +51,96 @@ J --> I
 ### Exercício 01 (2.5 pontos)
 Calcule a média de quatro números inteiros dados.
 
+#### Fluxograma (1.0 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (1.0 ponto)
+
+```
+Algoritmo Media
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (0.5 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+
 ### Exercício 02 (2.5 pontos)
 Leia uma temperatura dada em Celsius (C) e imprima o equivalente em Fahrenheit (F). (Fórmula de conversão: F = (9/5) * C + 32)
 
+#### Fluxograma (1.0 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (1.0 ponto)
+
+```
+Algoritmo ConverteCelsiusFarenheit
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (0.5 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+
 ### Exercício 03 (2.5 pontos)
-Receba dois números reais e um operador e efetue a operação correspondente com os valores recebidos (operandos). O algoritmo deve retornar o resultado da operação selecionada simulando todas as operações de uma calculadora simples.
+Receba dois números reais e um operador e efetue a operação correspondente com os valores recebidos (operandos). 
+O algoritmo deve retornar o resultado da operação selecionada simulando todas as operações de uma calculadora simples.
+
+#### Fluxograma (1.0 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (1.0 ponto)
+
+```
+Algoritmo Calculadora
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (0.5 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
 
 ### Exercício 04 (2.5 pontos)
 Elaborar um algoritmo que, dada a idade, classifique nas categorias: infantil A (5 - 7 anos), infantil B (8 -10 anos), juvenil A (11 - 13 anos), juvenil B (14 -17 anos) e adulto (maiores que 18 anos).
+
+#### Fluxograma (1.0 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (1.0 ponto)
+
+```
+Algoritmo ClassificaCategoria
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (0.5 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
