@@ -4,10 +4,10 @@
 
 ## Lista de exercícios 01
 
-### Exercício 01
+### Exercício 01 (1 ponto)
 Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um número inteiro e positivo é par ou impar.
 
-#### Fluxograma
+#### Fluxograma (0,25 ponto)
 
 ```mermaid
 flowchart TD
@@ -24,7 +24,7 @@ H --> Z
 I --> Z
 ```
 
-#### Pseudocódigo
+#### Pseudocódigo (0,5 ponto)
 ```
 1  ALGORTIMO verifica_par_impar
 2  DECLARE numero, resto: INTEIRO
@@ -44,7 +44,7 @@ I --> Z
 13 FIM
 ```
 
-#### Teste
+#### Teste de mesa (0,25 ponto)
 | numero | numero >= 0 | resto | resto == 0 | Saída |
 | -- | -- | -- | -- | -- | 
 | -1 | F |   |   | "O número deve ser postivo!" |
@@ -52,14 +52,76 @@ I --> Z
 | 13 | V | 1 | F | "O número é impar!" |
 | 30 | V | 0 | V | "O número é par!" |
 
-## Exercício 02
+## Exercício 02 (3 pontos)
 Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o novo salário de um funcionário. 
 Sabe-se que os funcionários que recebem atualmente salário de até R$ 500 terão aumento de 20%; os demais terão aumento de 10%.
 
-## Exercício 03
+#### Fluxograma (1.0 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (1.0 ponto)
+
+```
+Algoritmo ContaAprovacoes
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (1.0 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+
+## Exercício 03 (3 pontos)
 Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um número inteiro e positivo é par ou impar.
 
-## Exercício 04
+#### Fluxograma (1 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (1 ponto)
+
+```
+Algoritmo ContaAprovacoes
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (1 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+
+## Exercício 04 (3 pontos)
 Represente, em fluxograma e pseudocódigo, um algoritmo que, a partir da idade do candidato(a), determinar se pode ou não tirar a CNH. 
 Caso não atender a restrição de idade, calcular quantos anos faltam para o candidato estar apto.
 
+#### Fluxograma (1.0 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (1.0 ponto)
+
+```
+Algoritmo ContaAprovacoes
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (1.0 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
