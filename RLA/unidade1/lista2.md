@@ -2,9 +2,7 @@
 **Nome**: Nome do estudante <br>
 **Disciplina**: Raciocínio lógico algorítm
 
-## Lista de exercícios 02
-
-### Exercício exemplo
+## Exercício exemplo
 Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o adicional de salário de funcionário por cargo de uma empresa fictícia. Sabe-se que os funcionários de cargo técnico receberão reajuste de 50%, cargo de gerência, um reajuste de 30% e demais, um reajuste de 10%. 
 
 #### Fluxograma
@@ -47,3 +45,17 @@ J --> I
 | 1000 | Técnico | V | F | 1500 | “Salário Reajustado = 1500“ |
 | 2000 | Gerente | F | V | 2600 | “Salário Reajustado = 2600“ |
 | 9000 | Diretor | F | F | 9900 | “Salário Reajustado = 9900“ |
+
+## Lista de exercícios 02
+
+### Exercício 01 (2.5 pontos)
+Calcule a média de quatro números inteiros dados.
+
+### Exercício 02 (2.5 pontos)
+Leia uma temperatura dada em Celsius (C) e imprima o equivalente em Fahrenheit (F). (Fórmula de conversão: F = (9/5) * C + 32)
+
+### Exercício 03 (2.5 pontos)
+Receba dois números reais e um operador e efetue a operação correspondente com os valores recebidos (operandos). O algoritmo deve retornar o resultado da operação selecionada simulando todas as operações de uma calculadora simples.
+
+### Exercício 04 (2.5 pontos)
+Elaborar um algoritmo que, dada a idade, classifique nas categorias: infantil A (5 - 7 anos), infantil B (8 -10 anos), juvenil A (11 - 13 anos), juvenil B (14 -17 anos) e adulto (maiores que 18 anos).
