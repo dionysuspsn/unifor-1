@@ -4,7 +4,7 @@
 
 ## Lista de exercícios 01
 
-### Exercício exemplo
+### Exercício 01
 Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um número inteiro e positivo é par ou impar.
 
 #### Fluxograma
@@ -51,3 +51,15 @@ I --> Z
 | 0  | V | 0 | V | "O número é par!" |
 | 13 | V | 1 | F | "O número é impar!" |
 | 30 | V | 0 | V | "O número é par!" |
+
+## Exercício 02
+Represente, em fluxograma e pseudocódigo, um algoritmo para calcular o novo salário de um funcionário. 
+Sabe-se que os funcionários que recebem atualmente salário de até R$ 500 terão aumento de 20%; os demais terão aumento de 10%.
+
+## Exercício 03
+Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um número inteiro e positivo é par ou impar.
+
+## Exercício 04
+Represente, em fluxograma e pseudocódigo, um algoritmo que, a partir da idade do candidato(a), determinar se pode ou não tirar a CNH. 
+Caso não atender a restrição de idade, calcular quantos anos faltam para o candidato estar apto.
+
