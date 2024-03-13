@@ -39,27 +39,22 @@ Por exemplo, se na apresentação do exercício, o aluno atenter parcialmente os
 
 ### Questão 1 - Troca dos valores de duas variáveis (1 ponto)
 
-Dadas duas variáveis, $a$ e $b$, implemente e teste um algoritmo para trocar os valores atribuídos a elas, conforme a descrição abaixo:
-
-1. Guardar o valor original da variável $a$ em uma variável auxiliar $aux$.
-2. Atribuir à variável $a$ o valor original da variável $b$.
-3. Atribuir à variável $b$ o valor original da variável $a$, que está armazenado na variável auxiliar $aux$.
-
-#### Fluxograma
+Dadas duas variáveis, $a$ e $b$, implemente e teste um algoritmo para trocar os valores atribuídos a elas.
+#### Fluxograma (0.25 ponto)
 
 ```mermaid
 flowchart TD
 A([INICIO]) --> B([FIM])
 ```
 
-#### Pseudocódigo
+#### Pseudocódigo (0.5 ponto)
 
 ```
 Algoritmo TrocaValores
 FIM_ALGORITMO
 ```
 
-#### Teste de mesa
+#### Teste de mesa (0.25 ponto)
 
 | nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
 |      --      |      --      |      --      |      --      |      --      | 
@@ -70,14 +65,84 @@ FIM_ALGORITMO
 
 Dado um conjunto $n$ de notas de alunos em um exame, implemente e teste um algoritmo para fazer uma contagem $cont$ do número de alunos que foram aprovados no exame. 
 Será considerado aprovado o aluno que tirar $nota$ 50 ou maior (no intervalo de 0 a 100).
-Segue abaixo a descrição do algoritmo:
 
-1. Obter o número de notas a serem processadas.
-2. Inicializar a contagem com zero.
-3. Enquanto houver notas a serem processadas, fazer repetidamente:
-  3.1. obter a próxima nota;
-  3.2. se a nota for suficiente para passar no exame (≥ 50) então adicionar 1 (um) à contagem $cont$.
-4. Exibir a contagem (número total de aprovações).
+#### Fluxograma (0.25 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (0.5 ponto)
+
+```
+Algoritmo ContaAprovacoes
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (0.25 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+
+### Questão 3 - Soma de um conjunto de números (1 ponto)
+
+Dado um conjunto de $n$ números, implemente e teste um algoritmo para calcular a soma desses números. <br>
+Aceite apenas $n$ maior ou igual a zero.
+
+#### Fluxograma (0.25 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (0.5 ponto)
+
+```
+Algoritmo ContaAprovacoes
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (0.25 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+
+### Questão 4 - Cálculo de uma série (1 ponto)
+
+Calcular o valor de S, conforme definido pela seguinte série infinita:
+
+$$ S = \frac{1}{2} + \frac{3}{4} + \frac{5}{6} + \frac{7}{8} + \dots $$
+
+#### Fluxograma (0.25 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (0.5 ponto)
+
+```
+Algoritmo ContaAprovacoes
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (0.25 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
+
+### Questão 5 - Cálculo fatorial (2 pontos)
+
+Dado um número $n$, calcular o fatorial de $n$ (escrito como $n!$), onde $n ≥ 0$.
 
 #### Fluxograma (0.5 ponto)
 
@@ -89,7 +154,7 @@ A([INICIO]) --> B([FIM])
 #### Pseudocódigo (1.0 ponto)
 
 ```
-Algoritmo TrocaValores
+Algoritmo ContaAprovacoes
 FIM_ALGORITMO
 ```
 
@@ -97,81 +162,56 @@ FIM_ALGORITMO
 
 | nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
 |      --      |      --      |      --      |      --      |      --      | 
-| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |   
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
 | verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
 
-### Questão 3 - Soma de um conjunto de números (2 pontos)
+### Questão 6 - Geração da sequência de Fibonacci (2 pontos)
 
-Dado um conjunto de $n$ números, implemente e teste um algoritmo para calcular a soma desses números. 
-Aceite apenas $n$ maior ou igual a zero. Segue abaixo a descrição do algoritmo:
-
-1. Obter a quantidade de números a serem somados.
-2. Inicializar a soma com 0 (zero).
-3. Enquanto menos do que n números tiverem sido
-somados, fazer repetidamente:
-◇ obter o próximo número;
-◇ calcular a soma atual, adicionando o número
-obtido à soma mais recente.
-4. Exibir a soma dos n números
-
-### Questão 4 - Cálculo fatorial (2 pontos)
-
-Dado um número n, calcular o fatorial de n (escrito como n!), onde n ≥ 0.
-
-Descrição do Algoritmo
-1. Obter o número n, onde n ≥ 0.
-2. Inicializar o produto com 1 (um) e a contagem de
-produtos com 0 (zero).
-3. Enquanto menos do que n produtos tiverem sido
-calculados, fazer repetidamente:
-◇ incrementar a contagem de produtos;
-◇ calcular o produto atual, multiplicando a
-variável de contagem pelo produto mais
-recente.
-4. Exibir o resultado (n!).
-
-### Questão 5 - Geração da sequência de Fibonacci (2 pontos)
-
-Gerar e imprimir os n primeiros termos da sequência de Fibonacci, onde n ≥ 1. 
-Os primeiros termos são: 0, 1, 1, 2, 3, 5, 8, 13, ...
+Gerar e imprimir os $n$ primeiros termos da sequência de Fibonacci, onde $n ≥ 1$. <br>
+Os primeiros termos são: $0, 1, 1, 2, 3, 5, 8, 13, \dots$ <br>
 Cada termo, além dos dois primeiros, é derivado da soma dos seus dois antecessores mais próximos.
 
-Segue a descrição do algoritmo:
-1. Obter o número de termos a serem gerados (n).
-2. Atribuir valores aos dois primeiros números de Fibonacci, a e b.
-3. Inicializar a contagem de números gerados.
-4. Se n for igual a 1, então exibir o primeiro número de Fibonacci, senão exibir os dois primeiros números.
-5. Enquanto menos do que n números de Fibonacci tiverem sido gerados, fazer repetidamente:
-  5.1. atualizar a contagem de números gerados;
-  5.2. gerar o próximo número de Fibonacci, c;
-  5.3. escrever o próximo número de Fibonacci;
-  5.4. atribuir ao primeiro número de Fibonacci o valor do segundo número;
-  5.5 atribuir ao segundo número de Fibonacci o valor do próximo número gerado.
+#### Fluxograma (0.5 ponto)
 
-### Questão 6 - Inversão dos dígitos de um número inteiro (2 pontos)
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
 
-Inverter a ordem dos dígitos de um número inteiro positivo. Segue a descrição do algoritmo:
+#### Pseudocódigo (1.0 ponto)
 
-1. Obter o número inteiro positivo a ser invertido.
-2. Definir a condição inicial para o número invertido.
-3. Enquanto o número que está sendo invertido for maior do que zero, faça:
-   3.1. extrair o dígito mais à direita desse número, usando o resto da divisão dele por 10;
-   3.2. atualizar o número invertido, multiplicando o seu valor anterior por 10 e adicionando a ele o dígito mais à direita extraído recentemente;
+```
+Algoritmo ContaAprovacoes
+FIM_ALGORITMO
+```
+#### Teste de mesa (0.5 ponto)
 
-### Questão 7 - Cálculo de uma série (2 pontos)
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
 
-Calcular o valor de S, conforme definido pela seguinte série infinita:
+### Questão 7 - Inversão dos dígitos de um número inteiro (2 pontos)
 
-$$ S = \frac{1}{2} + \frac{3}{4} + \frac{5}{6} + \dots + \frac{}{8} $$
+Inverter a ordem dos dígitos de um número inteiro positivo.
 
-Descrição do Algoritmo
-1. Obter o número de termos (n) e o valor de x.
-2. Definir as condições iniciais para o primeiro termo,
-que não pode ser calculado iterativamente.
-3. Enquanto menos do que n termos tiverem sido
-calculados, fazer repetidamente:
-22
-◇ identificar o termo atual;
-◇ gerar termo atual a partir do seu antecessor;
-◇ adicionar o termo atual, com o sinal apropriado,
-à soma acumulada.
+#### Fluxograma (0.5 ponto)
+
+```mermaid
+flowchart TD
+A([INICIO]) --> B([FIM])
+```
+
+#### Pseudocódigo (1.0 ponto)
+
+```
+Algoritmo ContaAprovacoes
+FIM_ALGORITMO
+```
+
+#### Teste de mesa (0.5 ponto)
+
+| nome_coluna1 | nome_coluna2 | nome_coluna3 | nome_coluna4 | nome_coluna5 | 
+|      --      |      --      |      --      |      --      |      --      | 
+| Adicione     | espaço       | se quiser    |  alinhar     | as barras    |
+| verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
