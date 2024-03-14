@@ -16,7 +16,6 @@ E --TRUE--> F{{"Num", num}}
 F --> G[num =+ 1]
 G --LOOP--> E
 E --FALSE--> I([FIM])
-G --> I
 ```
 
 #### Pseudocódigo
@@ -59,9 +58,8 @@ A([INICIO]) --> B{{Digite um número: }}
 B --> C[\n\]
 C --> D[\soma = 0\]
 D --> E[[i=1 ATÉ n PASSO 1]]
-E --TRUE--> F[soma =+ i]
 E --FALSE--> G([FIM])
-F --> G
+E --TRUE--> F[soma =+ i]
 F --LOOP--> E
 ```
 
