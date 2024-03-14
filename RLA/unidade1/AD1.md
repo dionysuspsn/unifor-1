@@ -36,9 +36,9 @@ A avaliação da **AP1** é apenas considerada no intervalo de 0% (não atende o
 Por exemplo, se na apresentação do exercício, o aluno atenter parcialmente os pré-requisitos, então sua avaliação da apresentação será 5,0.
 
 ## Datas
-- Entrega da primeira avaliação formativa (AF1) composta pelas listas de exerciícios 1, 2 e 3: 21/03/24
-- Entrega dos exercícios da primeira avaliação diagnóstica (EX1): 21/03/24
-- Apresentação da primeira avaliação diagnóstica (AP1): 21/03/24
+- Entrega da primeira avaliação formativa (**AF1**) composta pelas listas de exerciícios 1, 2 e 3: 21/03/24
+- Entrega dos exercícios da primeira avaliação diagnóstica (**EX1**): 21/03/24
+- Apresentação da primeira avaliação diagnóstica (**AP1**): 21/03/24
 
 ## Lista de questões
 
@@ -147,7 +147,7 @@ FIM_ALGORITMO
 
 ### Questão 5 - Cálculo fatorial (2 pontos)
 
-Dado um número $n$, calcular o fatorial de $n$ (escrito como $n!$), onde $n ≥ 0$.
+Dado um número $n$, implemente e teste um algoritmo para calcular o fatorial de $n$ (escrito como $n!$), onde $n ≥ 0$.
 
 #### Fluxograma (0.5 ponto)
 
@@ -198,7 +198,7 @@ FIM_ALGORITMO
 
 ### Questão 7 - Inversão dos dígitos de um número inteiro (2 pontos)
 
-Inverter a ordem dos dígitos de um número inteiro positivo.
+Implemente e teste um algoritmo para inverter a ordem dos dígitos de um número inteiro positivo de dois dígitos.
 
 #### Fluxograma (0.5 ponto)
 
