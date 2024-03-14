@@ -35,6 +35,11 @@ A **AP1** é avaliada mediante aos pré-requisitos de **clareza, organização e
 A avaliação da **AP1** é apenas considerada no intervalo de 0% (não atende os pré-requisitos), 50% (atende parcialmente) e 100% (atende em sua totalidade).
 Por exemplo, se na apresentação do exercício, o aluno atenter parcialmente os pré-requisitos, então sua avaliação da apresentação será 5,0.
 
+## Datas
+- Entrega da primeira avaliação formativa (AF1) composta pelas listas de exerciícios 1, 2 e 3: 21/03/24
+- Entrega da primeira avaliação diagnóstica (AD1): 21/03/24
+- Apresentação (AP1): 21/03/24
+
 ## Lista de questões
 
 ### Questão 1 - Troca dos valores de duas variáveis (1 ponto)
