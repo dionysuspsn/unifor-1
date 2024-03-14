@@ -37,8 +37,8 @@ Por exemplo, se na apresentação do exercício, o aluno atenter parcialmente os
 
 ## Datas
 - Entrega da primeira avaliação formativa (AF1) composta pelas listas de exerciícios 1, 2 e 3: 21/03/24
-- Entrega da primeira avaliação diagnóstica (AD1): 21/03/24
-- Apresentação (AP1): 21/03/24
+- Entrega dos exercícios da primeira avaliação diagnóstica (EX1): 21/03/24
+- Apresentação da primeira avaliação diagnóstica (AP1): 21/03/24
 
 ## Lista de questões
 
