@@ -120,7 +120,7 @@ FIM_ALGORITMO
 
 ### Questão 4 - Cálculo de uma série (1 ponto)
 
-Calcular o valor de S, conforme definido pela seguinte série infinita:
+Dado um conjunto de $n$ termos da série, implemente e teste um algoritmo para calcular o valor de S, conforme definido abaixo:
 
 $$ S = \frac{1}{2} + \frac{3}{4} + \frac{5}{6} + \frac{7}{8} + \dots $$
 
