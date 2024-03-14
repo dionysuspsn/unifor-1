@@ -78,7 +78,7 @@ FIM_ALGORITMO
 | verticais,   | mas          | não é        | obrigatório. | Entendido ?  |
 
 ## Exercício 03 (3 pontos)
-Represente, em fluxograma e pseudocódigo, um algoritmo para determinar se um número inteiro e positivo é par ou impar.
+Represente, em fluxograma e pseudocódigo, um algoritmo para calcular a média aritmética entre duas notas de um aluno e mostrar sua situação, que pode ser aprovado ou reprovado.
 
 #### Fluxograma (1 ponto)
 
