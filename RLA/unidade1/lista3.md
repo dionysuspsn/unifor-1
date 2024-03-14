@@ -12,10 +12,10 @@ A([INICIO]) --> B{{Digite um número: }}
 B --> C[\n\]
 C --> D[\num = 1\]
 D --> E{num <= n}
+E --FALSE--> I([FIM])
 E --TRUE--> F{{"Num", num}}
 F --> G[num =+ 1]
 G --LOOP--> E
-E --FALSE--> I([FIM])
 ```
 
 #### Pseudocódigo
