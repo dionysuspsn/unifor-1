@@ -45,6 +45,13 @@ Por exemplo, se na apresentação do exercício, o aluno atenter parcialmente os
 ### Questão 1 - Troca dos valores de duas variáveis (1 ponto)
 
 Dadas duas variáveis, $a$ e $b$, implemente e teste um algoritmo para trocar os valores atribuídos a elas.
+
+#### Descrição do Algoritmo
+
+1. Guardar o valor original da variável $a$ em uma variável auxiliar $aux$;
+2. Atribuir à variável $a$ o valor original da variável $b$;
+3. Atribuir à variável $b$ o valor original da variável $a$, que está armazenado na variável auxiliar $aux$.
+
 #### Fluxograma (0.25 ponto)
 
 ```mermaid
@@ -70,6 +77,14 @@ FIM_ALGORITMO
 
 Dado um conjunto $n$ de notas de alunos em um exame, implemente e teste um algoritmo para fazer uma contagem $cont$ do número de alunos que foram aprovados no exame. 
 Será considerado aprovado o aluno que tirar $nota$ 50 ou maior (no intervalo de 0 a 100).
+
+#### Descrição do Algoritmo
+1. Obter o número de notas $n$ a serem processadas;
+2. Inicializar a contagem $cont$ com zero.
+3. Enquanto houver notas a serem processadas, fazer repetidamente:
+    - obter a próxima nota;
+    - se a nota for suficiente para passar no exame ($n ≥ 50$) então adicionar 1 (um) à contagem $cont$.
+4. Exibir a contagem $cont$ (número total de aprovações).
 
 #### Fluxograma (0.25 ponto)
 
