@@ -260,7 +260,7 @@ Implemente e teste um algoritmo para inverter a ordem dos dígitos de um número
 2. Inicializar a variável $num \textunderscore inv$ com 0 (zero);
 3. Enquanto o número for maior que zero ($num > 0$), faça repetidamente:
     - Calcular o último dígito do número na variável $digito$;
-    - Adicionar o dígito ao número invertido $num extunderscore inv$;
+    - Adicionar o dígito ao número invertido $num \textunderscore inv$;
     - Remover o último dígito do número original $num$; 
 4. Exibir o número invertido.
 
