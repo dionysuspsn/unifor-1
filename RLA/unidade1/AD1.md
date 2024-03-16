@@ -51,6 +51,7 @@ Dadas duas variáveis, $a$ e $b$, implemente e teste um algoritmo para trocar os
 1. Guardar o valor original da variável $a$ em uma variável auxiliar $aux$;
 2. Atribuir à variável $a$ o valor original da variável $b$;
 3. Atribuir à variável $b$ o valor original da variável $a$, que está armazenado na variável auxiliar $aux$.
+4. Exibir os novos valores de $a$ e $b$.
 
 #### Fluxograma (0.25 ponto)
 
@@ -152,12 +153,13 @@ $$ S = \frac{1}{2} + \frac{3}{4} + \frac{5}{6} + \frac{7}{8} + \dots $$
 #### Descrição geral do algoritmo
 
 1. Obter o número de termos $n$;
-2. Inicializar a variável $soma$ com 0 (zero).
+2. Inicializar a variável $S$ com 0 (zero).
 3. Iterar o valor de $n$ na variável $i$ iniciando com 0 (zero), de acordo com as instruções abaixo:
     - calcular o numerador na variável $numerador$;
     - calcular o denominador  na variável $denominador$;;
     - calcular o termo da série na variável $termo$, onde $termo = numerador/denominador$;
-    - adicionar esse termo à variável $soma$.
+    - adicionar esse termo à variável $S$.
+4. Exibir o valor da série $S$.
 
 #### Fluxograma (0.25 ponto)
 
@@ -216,19 +218,18 @@ FIM_ALGORITMO
 ### Questão 6 - Geração da sequência de Fibonacci (2 pontos)
 
 Gerar e imprimir os $n$ primeiros termos da sequência de Fibonacci, onde $n ≥ 1$. <br>
-Os primeiros termos são: $0, 1, 1, 2, 3, 5, 8, 13, \dots$ <br>
-Cada termo, além dos dois primeiros, é derivado da soma dos seus dois antecessores mais próximos.
+Os primeiros termos são: $0, 1, 1, 2, 3, 5, 8, 13, \dots$. Cada termo, além dos dois primeiros, é derivado da soma dos seus dois antecessores mais próximos.
 
 #### Descrição geral do algoritmo
 
 1. Obter o número de termos $n$, onde $n \geq 1$;
-2. Inicializar os dois primeiros termos nas variável $a$ e $b$ com 0 (zero);
+2. Inicializar os dois primeiros termos da série nas variável $a$ e $b$ com 0 (zero);
 3. Iterar o valor de $n$, ou seja, executar $n$ vezes, as instruções abaixo:
     - Imprimir o termo inicial $a$;
     - Somar os termos $a$ e $b$ na variável $termo_atual$;
     - Atribuir a variável $a$ o valor da variável $b$;
     - Atribuir a variável $b$ o valor da variável $termo_atual$;
-4. Exibir o resultado ($n!$).
+4. Exibir a série.
 
 #### Fluxograma (0.5 ponto)
 
@@ -257,10 +258,10 @@ Implemente e teste um algoritmo para inverter a ordem dos dígitos de um número
 #### Descrição geral do algoritmo
 
 1. Obter o número inteiro positivo $num$ a ser invertido;
-2. Inicializar a variável $num_inv$ com 0 (zero);
-3. Enquanto o número for maior que zero, faça repetidamente:
+2. Inicializar a variável $num \textunderscore inv$ com 0 (zero);
+3. Enquanto o número for maior que zero ($num > 0$), faça repetidamente:
     - Calcular o último dígito do número na variável $digito$;
-    - Adicionar o dígito ao número invertido $num_inv$;
+    - Adicionar o dígito ao número invertido $num extunderscore inv$;
     - Remover o último dígito do número original $num$; 
 4. Exibir o número invertido.
 
