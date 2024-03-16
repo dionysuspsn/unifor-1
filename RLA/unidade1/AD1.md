@@ -256,7 +256,7 @@ Implemente e teste um algoritmo para inverter a ordem dos dígitos de um número
 
 #### Descrição geral do algoritmo
 
-1. Obter o número inteiro $num$ a ser invertido;
+1. Obter o número inteiro positivo $num$ a ser invertido;
 2. Inicializar a variável $num_inv$ com 0 (zero);
 3. Enquanto o número for maior que zero, faça repetidamente:
     - Calcular o último dígito do número na variável $digito$;
