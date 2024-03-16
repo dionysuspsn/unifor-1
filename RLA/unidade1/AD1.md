@@ -46,7 +46,7 @@ Por exemplo, se na apresentação do exercício, o aluno atenter parcialmente os
 
 Dadas duas variáveis, $a$ e $b$, implemente e teste um algoritmo para trocar os valores atribuídos a elas.
 
-#### Descrição do algoritmo
+#### Descrição geral do algoritmo
 
 1. Guardar o valor original da variável $a$ em uma variável auxiliar $aux$;
 2. Atribuir à variável $a$ o valor original da variável $b$;
@@ -78,7 +78,7 @@ FIM_ALGORITMO
 Dado um conjunto $n$ de notas de alunos em um exame, implemente e teste um algoritmo para fazer uma contagem $cont$ do número de alunos que foram aprovados no exame. 
 Será considerado aprovado o aluno que tirar $nota$ 50 ou maior (no intervalo de 0 a 100).
 
-#### Descrição do algoritmo
+#### Descrição geral do algoritmo
 
 1. Obter o número de notas $n$ a serem processadas;
 2. Inicializar a contagem $cont$ com zero;
@@ -113,7 +113,7 @@ FIM_ALGORITMO
 Dado um conjunto de $n$ números, implemente e teste um algoritmo para calcular a soma desses números. <br>
 Aceite apenas $n$ maior ou igual a zero.
 
-#### Descrição do algoritmo
+#### Descrição geral do algoritmo
 
 1. Obter a quantidade de números $n$ a serem somados.
 2. Inicializar a variável $soma$ com 0 (zero).
@@ -149,7 +149,7 @@ Dado um conjunto de $n$ termos da série, implemente e teste um algoritmo para c
 
 $$ S = \frac{1}{2} + \frac{3}{4} + \frac{5}{6} + \frac{7}{8} + \dots $$
 
-#### Descrição do algoritmo
+#### Descrição geral do algoritmo
 
 1. Obter o número de termos $n$;
 2. Inicializar a variável $soma$ com 0 (zero).
@@ -184,7 +184,7 @@ FIM_ALGORITMO
 
 Dado um número $n$, implemente e teste um algoritmo para calcular o fatorial de $n$ (escrito como $n!$), onde $n ≥ 0$.
 
-#### Descrição do algoritmo
+#### Descrição geral do algoritmo
 
 1. Obter o número $n$, onde $n \geq 0$;
 2. Inicializar a variável $fator$ com 1 (um) para armazenar o resultado do cálculo do fatorial;
@@ -219,7 +219,7 @@ Gerar e imprimir os $n$ primeiros termos da sequência de Fibonacci, onde $n ≥
 Os primeiros termos são: $0, 1, 1, 2, 3, 5, 8, 13, \dots$ <br>
 Cada termo, além dos dois primeiros, é derivado da soma dos seus dois antecessores mais próximos.
 
-#### Descrição do algoritmo
+#### Descrição geral do algoritmo
 
 1. Obter o número de termos $n$, onde $n \geq 1$;
 2. Inicializar os dois primeiros termos nas variável $a$ e $b$ com 0 (zero);
@@ -252,7 +252,17 @@ FIM_ALGORITMO
 
 ### Questão 7 - Inversão dos dígitos de um número inteiro (2 pontos)
 
-Implemente e teste um algoritmo para inverter a ordem dos dígitos de um número inteiro positivo de dois dígitos.
+Implemente e teste um algoritmo para inverter a ordem dos dígitos de um número inteiro positivo.
+
+#### Descrição geral do algoritmo
+
+1. Obter o número inteiro $num$ a ser invertido;
+2. Inicializar a variável $num_inv$ com 0 (zero);
+3. Enquanto o número for maior que zero, faça repetidamente:
+    - Calcular o último dígito do número na variável $digito$;
+    - Adicionar o dígito ao número invertido $num_inv$;
+    - Remover o último dígito do número original $num$; 
+4. Exibir o número invertido.
 
 #### Fluxograma (0.5 ponto)
 
