@@ -225,11 +225,10 @@ Os primeiros termos são: $0, 1, 1, 2, 3, 5, 8, 13, \dots$. Cada termo, além do
 1. Obter o número de termos $n$, onde $n \geq 1$;
 2. Inicializar os dois primeiros termos da série nas variável $a$ e $b$ com 0 (zero);
 3. Iterar o valor de $n$, ou seja, executar $n$ vezes, as instruções abaixo:
-    - Imprimir o termo inicial $a$;
+    - Imprimir o termo inicial $a$ (instrução para exibir a sequência ao atualizar a variável $a$);
     - Somar os termos $a$ e $b$ na variável $termo_atual$;
     - Atribuir a variável $a$ o valor da variável $b$;
-    - Atribuir a variável $b$ o valor da variável $termo_atual$;
-4. Exibir a série.
+    - Atribuir a variável $b$ o valor da variável $termo_atual$.
 
 #### Fluxograma (0.5 ponto)
 
