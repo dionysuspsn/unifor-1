@@ -64,7 +64,8 @@ A([INICIO]) --> B([FIM])
 
 ```
 Algoritmo TrocaValores
-FIM_ALGORITMO
+INICIO
+FIM
 ```
 
 #### Teste de mesa (0.25 ponto)
@@ -99,7 +100,8 @@ A([INICIO]) --> B([FIM])
 
 ```
 Algoritmo ContaAprovacoes
-FIM_ALGORITMO
+INICIO
+FIM
 ```
 
 #### Teste de mesa (0.25 ponto)
@@ -134,7 +136,8 @@ A([INICIO]) --> B([FIM])
 
 ```
 Algoritmo ContaAprovacoes
-FIM_ALGORITMO
+INICIO
+FIM
 ```
 
 #### Teste de mesa (0.25 ponto)
@@ -172,7 +175,8 @@ A([INICIO]) --> B([FIM])
 
 ```
 Algoritmo ContaAprovacoes
-FIM_ALGORITMO
+INICIO
+FIM
 ```
 
 #### Teste de mesa (0.25 ponto)
@@ -205,7 +209,8 @@ A([INICIO]) --> B([FIM])
 
 ```
 Algoritmo ContaAprovacoes
-FIM_ALGORITMO
+INICIO
+FIM
 ```
 
 #### Teste de mesa (0.5 ponto)
@@ -241,7 +246,8 @@ A([INICIO]) --> B([FIM])
 
 ```
 Algoritmo ContaAprovacoes
-FIM_ALGORITMO
+INICIO
+FIM
 ```
 #### Teste de mesa (0.5 ponto)
 
@@ -275,7 +281,8 @@ A([INICIO]) --> B([FIM])
 
 ```
 Algoritmo ContaAprovacoes
-FIM_ALGORITMO
+INICIO
+FIM
 ```
 
 #### Teste de mesa (0.5 ponto)
