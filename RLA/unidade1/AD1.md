@@ -1,15 +1,15 @@
 <img src="https://drive.google.com/uc?id=1SOzRTjUt7cuBJpSqoK90fcAiKBrnpUJo" width="400">
 
-**Curso:** preencha com seus dados <br>
-**Disciplina:** preencha com seus dados <br>
+**Curso:** Eng.da Computação <br>
+**Disciplina:** Rac. Lógico e Algoritmo <br>
 **Código/Turma:** preencha com seus dados <br>
 **Professor:** Ricardo Carubbi <br>
-**Data:** preencha com a data de envio <br>
-**Aluno(a):** preencha com seus dados <br>
-**Matrícula:** preencha com seus dados <br>
+**Data:** 21/03/24 <br>
+**Aluno(a):** Dionisio Pedro <br>
+**Matrícula:** 2410322 <br>
 
-**1a chamada (Sim/Não):** preencha com a opção correta <br>
-**2a chamada (Sim/Não):** preencha com a opção correta
+**1a chamada (Sim/Não):** Sim <br>
+**2a chamada (Sim/Não):** Não <br>
 
 # Avaliação Diagnóstica 1
 
@@ -142,6 +142,19 @@ J --LOOP--> E
 ```
 Algoritmo ContaAprovacoes
 INICIO
+ESCREVA "Digite o número de notas"
+DECLARE cont = 0
+DECLARE n
+DECLARE i = 1
+SE i <= n
+    ENTAO
+    ESCREVA "Digite nota do aluno" i
+    SE nota >= 50 E nota <= 100
+    ENTAO cont = + 1
+        SENAO
+    i = + 1
+SENAO
+    ESCREVA "Número de alunos aprovados:" cont
 ...
 FIM
 ```
@@ -205,6 +218,23 @@ K --LOOP--> G
 ```
 Algoritmo SomaNumeros
 INICIO
+DECLARE n >= 0
+ESCREVA "Digite a quantidade de números"
+LEIA n
+SE n >= 0
+    ENTAO
+    DECLARE soma = 0
+    DECLARE i = 1
+    SE i <= n
+    ESCREVA "Digite um número"
+    DECLARE num
+    CALCULE soma = + num
+    CALCULE i = + 1
+    SENAO
+        ESCREVA "A soma dos números é" soma
+        FIM
+SENAO
+    ESCREVA "O valor deve ser maior ou igual a zero!"    
 ...
 FIM
 ```
